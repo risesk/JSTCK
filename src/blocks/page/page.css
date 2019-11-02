@@ -1,0 +1,9 @@
+@import url('./__content/page__content.css');
+@import url('./__login/page__login.css');
+
+.page {
+    max-width: 1440px;
+    font-family: 'Inter-UI', Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    color: #222222;
+}

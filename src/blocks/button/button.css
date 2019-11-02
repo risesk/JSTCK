@@ -1,0 +1,17 @@
+@import url('./_s/button_s.css');
+@import url('./_m/button_m.css');
+@import url('./_l/button_l.css');
+@import url('./_xl/button_xl.css');
+@import url('./__login/button__login.css');
+@import url('./__reg/button__reg.css');
+@import url('./__registration/button__registration.css');
+
+
+.button {
+    font-size: 14px;
+    font-weight: bold;
+    /* text-align: center; */
+    line-height: 1.15;
+    letter-spacing: 0.25px;
+    cursor: pointer;
+}

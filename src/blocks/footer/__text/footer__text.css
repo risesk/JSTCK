@@ -1,0 +1,13 @@
+.footer__text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.25px;
+    color: #0069AF;
+    text-decoration: none;
+    margin: 16px 0 0;
+}
+
+.footer__text:first-child {
+    margin-right: 543px;
+}

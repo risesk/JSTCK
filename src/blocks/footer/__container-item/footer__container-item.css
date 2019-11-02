@@ -1,0 +1,6 @@
+.footer__container-item {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 332px;
+    align-items: flex-start;
+}

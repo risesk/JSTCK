@@ -1,0 +1,7 @@
+.footer__container {
+    display: flex;
+}
+
+.footer__container:last-child {
+    border-top: 1px solid #0069AF;
+}

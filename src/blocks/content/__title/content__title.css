@@ -1,0 +1,9 @@
+@import url('./_bold/content__title_bold.css');
+
+.content__title {
+    margin: 0;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 1.3;
+    color: #0041a5;
+}

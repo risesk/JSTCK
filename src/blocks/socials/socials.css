@@ -1,0 +1,6 @@
+@import url('./__item/socials__item.css');
+@import url('./__list/socials__list.css');
+
+.socials {
+    margin-top: 37px;
+}

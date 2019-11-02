@@ -1,0 +1,11 @@
+@import url('./__item/logos__item.css');
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    max-width: 1144px;
+
+    margin: 100px auto 180px;
+}

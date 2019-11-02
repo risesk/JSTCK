@@ -1,0 +1,7 @@
+@import url('./__item/checkbox__item.css');
+@import url('./__text/checkbox__text.css');
+
+.checkbox {
+    display: flex;
+    align-content: center;
+}

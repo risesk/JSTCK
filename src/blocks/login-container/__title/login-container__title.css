@@ -1,0 +1,8 @@
+.login-container__title {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    color: #00376E;
+
+    margin: 0 0 40px;
+}
