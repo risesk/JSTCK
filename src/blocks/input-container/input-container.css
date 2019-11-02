@@ -1,0 +1,11 @@
+@import url('./__text/input__container__text.css');
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 28px;
+}
+
+.input-container:last-of-type {
+    margin-bottom: 0px;
+}

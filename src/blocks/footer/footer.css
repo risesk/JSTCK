@@ -1,0 +1,11 @@
+@import url('./__container/footer__container.css');
+@import url('./__container-info/footer__container-info.css');
+@import url('./__container-item/footer__container-item.css');
+@import url('./__copyright/footer__copyright.css');
+@import url('./__text/footer__text.css');
+
+.footer {
+    background-color: #222222;
+    padding: 60px 120px 32px;
+    padding-bottom: 32px;
+}

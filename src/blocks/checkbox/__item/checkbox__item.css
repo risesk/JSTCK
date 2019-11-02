@@ -1,0 +1,9 @@
+.checkbox__item {
+    opacity: 0;
+    width: 0px;
+    /* background-color: #37DCD2;
+    border-radius: 2px;
+    border: 2px solid #284987;
+    width: 20px;
+    height: 20px; */
+}

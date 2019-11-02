@@ -1,0 +1,6 @@
+.header__button {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    width: 244px;
+}
