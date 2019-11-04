@@ -1,0 +1,10 @@
+.button_size_l {
+    width: 200px;
+    height: 52px;
+}
+
+@media screen and (max-width: 530px){
+    .button_size_l {
+        width: 288px;
+    }
+}

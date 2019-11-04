@@ -1,0 +1,10 @@
+@import url('./_size/_m/input_size_m.css');
+@import url('./_size/_l/input_size_l.css');
+@import url('./_type/input_type_email.css');
+
+.input {
+    padding-left: 12px;
+    border: 1px solid #0069AF;
+    box-sizing: border-box; 
+}
+

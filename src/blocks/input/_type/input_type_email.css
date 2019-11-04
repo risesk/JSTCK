@@ -1,0 +1,7 @@
+.input_type_email::placeholder {
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.25px;
+    color: #888888;
+    /* margin-left: 22px; */
+}

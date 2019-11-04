@@ -1,10 +1,10 @@
-@import url('./_s/button_s.css');
-@import url('./_m/button_m.css');
-@import url('./_l/button_l.css');
-@import url('./_xl/button_xl.css');
-@import url('./__login/button__login.css');
-@import url('./__reg/button__reg.css');
-@import url('./__registration/button__registration.css');
+@import url('./_size/_s/button_size_s.css');
+@import url('./_size/_m/button_size_m.css');
+@import url('./_size/_l/button_size_l.css');
+@import url('./_size/_xl/button_size_xl.css');
+@import url('./_color/_transparent/button_color_transparent.css');
+@import url('./_color/_lt-blue/button_color_lt-blue.css');
+@import url('./_color/_dk-blue/button_color_dk-blue.css');
 
 
 .button {
@@ -14,4 +14,5 @@
     line-height: 1.15;
     letter-spacing: 0.25px;
     cursor: pointer;
+    box-sizing: border-box;
 }

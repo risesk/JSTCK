@@ -1,17 +1,7 @@
-@import url('./_size/form__input_size_m.css');
-@import url('./_size/form__input_size_l.css');
 
-.form__input {
-    padding-left: 12px;
-
-    border: 1px solid #0069AF;
-    box-sizing: border-box; 
-}
-
-.form__email-input::placeholder {
-    font-size: 14px;
-    line-height: 1.15;
-    letter-spacing: 0.25px;
-    color: #888888;
-    /* margin-left: 22px; */
+@media screen and (max-width: 530px){
+    .form__input{
+        margin-bottom: 32px;
+        text-align: center;
+    }
 }

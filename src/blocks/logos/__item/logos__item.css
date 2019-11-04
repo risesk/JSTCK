@@ -1,3 +1,29 @@
 .logos__item {
     opacity: 0.4;
 }
+
+@media screen and (max-width: 768px){
+    .logos__item {
+        width: 33%;
+        margin-bottom: 47px;
+    }
+    .logos__item:nth-of-type(4),
+    .logos__item:nth-of-type(5) {
+        margin-bottom: 0;
+    }
+
+    .logos__link {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 530px){
+    .logos__item {
+        width: 120px;
+        margin-bottom: 24px;
+    }
+    .logos__item:last-of-type {
+        margin-bottom: 0px;
+    }
+}

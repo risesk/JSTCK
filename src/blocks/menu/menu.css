@@ -1,4 +1,5 @@
 @import url('./__item/menu__item.css');
+@import url('./__link/menu__link.css');
 
 .menu {
     display: flex;

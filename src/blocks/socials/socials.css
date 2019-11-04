@@ -4,3 +4,9 @@
 .socials {
     margin-top: 37px;
 }
+
+@media screen and (max-width: 768px){
+    .socials {
+        margin-top: 25px;
+    }
+}
