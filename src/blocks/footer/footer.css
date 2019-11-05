@@ -9,6 +9,16 @@
     padding: 61px 0 32px;
 }
 
+.footer svg:hover > path {
+	fill: #37DCD2;
+	transition: all .2s ease-in-out;
+}
+
+.footer svg:active > path {
+	fill: #0069AF;
+	transition: all .2s ease-in-out;
+}
+
 @media screen and (max-width: 768px){
     .footer {
         padding-top: 48px;

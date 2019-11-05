@@ -5,3 +5,12 @@
     display: flex;
     align-content: center;
 }
+
+.checkbox__item:checked + .checkbox__text::after {
+    content: "";
+}
+
+.checkbox__item:checked + .checkbox__text::before {
+    background-color: #37DCD2;
+    border-color: #37DCD2;
+}
