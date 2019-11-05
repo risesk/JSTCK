@@ -3,3 +3,19 @@
     flex-basis: 711px;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 768px){
+    .footer__container-info {
+        flex-basis: auto;
+        margin: 0 19px;
+    }
+}
+
+@media screen and (max-width: 530px){
+    .footer__container-info {
+        margin-top: 18px;
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+    }
+}

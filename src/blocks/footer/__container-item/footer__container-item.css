@@ -4,3 +4,11 @@
     flex-basis: 332px;
     align-items: flex-start;
 }
+
+@media screen and (max-width: 768px){
+    .footer__container-item {
+        flex-basis: auto;
+        margin: 0 auto 33px;
+        align-items: center;
+    }
+}

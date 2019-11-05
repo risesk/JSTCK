@@ -2,6 +2,12 @@
     display: flex;
     flex-direction: column;
     max-width: 516px;
+    margin-top: 161px;
+}
 
-    margin-top: 160px;
+@media screen and (max-width: 530px){
+    .content__container {
+        margin-top: 46px;
+        text-align: center;
+    }
 }

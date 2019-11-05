@@ -1,0 +1,15 @@
+.button_color_transparent {
+    color: #00376E;
+    background-color: transparent;
+    border: 1px solid #00376E;
+}
+
+.button_color_transparent:hover {
+    color: #FFFFFF;
+    background-color: #00376E;
+}
+
+.button_color_transparent:active {
+    background-color: #0041A5;
+    border: none;
+}

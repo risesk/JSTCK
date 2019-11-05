@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JSTCK</title>
+    <link rel="stylesheet" href="index.bundle.css?a72fdb1c0c53b485bcc8">
+</head>
+<body>
+    <div class="page"> 
+
+        <header class="header page__content">
+            <img src="images/jstck_logo.svg" alt="Логотип" class="header__logo">
+        </header>
+
+        <main class="page__content page__signup">
+
+            <section class="content content__image">
+
+                <div class="login-container">
+                    <h1 class="login-container__title">Регистрация</h1>
+
+                    <form action="submit" class="form form__login">
+                        <div class="input-container">
+                            <label class="input__label">Логин</label>
+                            <input type="text" name="login" minlength="5" maxlength="15" placeholder="darkking"
+                                class="input input_size_l">
+                            <span class="input__error">Введен неверный логин</span>
+                        </div>
+
+                        <div class="input-container">
+                            <label class="input__label">E-mail</label>
+                            <input type="email" name="email" required placeholder="mail@example.com" 
+                                class="input input_type_email input_size_l">
+                            <span class="input__error input__error-position">e-mail в формате: mail@example.ru</span>
+                        </div> 
+
+                        <div class="input-container">
+                            <label class="input__label">Пароль</label>
+                            <input type="password" name="password" minlength="6" maxlength="15"
+                                class="input input_size_l">
+                            <span class="input__error">Введен неверный пароль</span>
+                        </div>
+
+                        <label class="checkbox form__checkbox">
+                            <input type="checkbox" class="checkbox__item">
+                            <label for="checkbox" class="checkbox__text">Нажимая кнопку
+                                «Зарегистрироваться» я даю согласие на обработку моих персональных
+                                данных на условиях, изложенных в
+                                <a href="#" class="form__link">«Политике конфиденциальности»</a>
+                            </label>
+                        </label>  
+                        <button type="submit" class="button button_color_lt-blue button_size_l">Зарегистрироваться</button>
+                    </form>
+
+                    <p class="form__text">Уже регистрировались у нас?
+                        <a href="#" class="form__link form__link_bold">Войти</a>
+                    </p>
+                </div>
+                    
+            </section>
+
+        </main>
+
+        <footer class="footer">
+            <div class="page__content">
+
+                <div class="footer__container">
+                    <div class="footer__container-item">
+                        <img src="images/jstck_logo-footer.svg" alt="Логотип" class="logo">
+                        <div class="socials">
+                            <ul class="socials__list">
+                                <li class="socials__item" tabindex="5">
+                                    <a href="#">
+                                        <img src="images/facebook.svg" alt="">
+                                    </a>
+                                </li>
+                                <li class="socials__item" tabindex="6">
+                                    <a href="#">
+                                        <img src="images/twitter.svg" alt="">
+                                    </a>
+                                </li>
+                                <li class="socials__item" tabindex="7">
+                                    <a href="#">
+                                        <img src="images/youtube.svg" alt="">
+                                    </a>
+                                </li>
+                                <li class="socials__item" tabindex="8">
+                                    <a href="#">
+                                        <img src="images/instagram.svg" alt="">
+                                    </a>
+                                </li>
+                                <li class="socials__item" tabindex="9">
+                                    <a href="#">
+                                        <img src="images/telegram.svg" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer__container-info">
+                        <div class="info">
+                            <h3 class="info__title">Продукт</h3>
+                            <ul class="info__menu">
+                                <li class="info__item" tabindex="10"> <a href="#" class="info__link">Домашняя страница</a> </li>
+                                <li class="info__item" tabindex="11"> <a href="#" class="info__link">Отзывы</a> </li>
+                                <li class="info__item" tabindex="12"> <a href="#" class="info__link">Тарифы</a> </li>
+                            </ul>
+                        </div>
+                        <div class="info">
+                            <h3 class="info__title">О JSTCK</h3>
+                            <ul class="info__menu">
+                                <li class="info__item" tabindex="13"> <a href="#" class="info__link">Компания</a> </li>
+                                <li class="info__item" tabindex="14"> <a href="#" class="info__link">Вакансии</a> </li>
+                                <li class="info__item" tabindex="15"> <a href="#" class="info__link">Блог</a> </li>
+                                <li class="info__item" tabindex="16"> <a href="#" class="info__link">Инвестирование</a> </li>
+                            </ul>
+                        </div>
+                        <div class="info">
+                            <h3 class="info__title">Помощь</h3>
+                            <ul class="info__menu">
+                                <li class="info__item" tabindex="17"> <a href="#" class="info__link">База знаний</a> </li>
+                                <li class="info__item" tabindex="18"> <a href="#" class="info__link">Видео туториалы</a> </li>
+                                <li class="info__item" tabindex="19"> <a href="#" class="info__link">Интеграция</a> </li>
+                                <li class="info__item" tabindex="20"> <a href="#" class="info__link">Разработчикам</a> </li>
+                            </ul>
+                        </div>                                                        
+                    </div>
+                </div>
+
+                <div class="footer__copyright">
+                    <p class="footer__text">&copy;2018.JSTCK</p>
+                    <a href="#" class="footer__text">Политика конфиденциальности</a>
+                </div>
+
+            </div>
+        </footer>
+                
+    </div>
+    
+    <script src="index.bundle.js?a72fdb1c0c53b485bcc8"></script>
+</body>
+</html>

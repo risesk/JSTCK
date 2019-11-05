@@ -1,0 +1,13 @@
+.button_color_lt-blue {
+    color: #FFFFFF;
+    background-color: #0041A5;;
+    border: none;
+}
+
+.button_color_lt-blue:hover {
+    background-color: #0069AF;
+}
+
+.button_color_lt-blue:active {
+    background-color: #00376E;
+}

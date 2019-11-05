@@ -1,8 +1,15 @@
 .content__subtitle {
-    margin: 16px 0 68px;
+    margin: 15px 0 66px;
     font-weight: normal;
     font-size: 18px;
     line-height: 1.35;
     letter-spacing: 0.25px;
     /* color: #0041a5; */
+}
+
+@media screen and (max-width: 530px){
+    .content__subtitle {
+        font-size: 16px;
+        margin: 16px auto 52px;
+    }
 }

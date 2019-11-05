@@ -1,8 +1,4 @@
-@import url('./__text/input__container__text.css');
-
 .input-container {
-    display: flex;
-    flex-direction: column;
     margin-bottom: 28px;
 }
 

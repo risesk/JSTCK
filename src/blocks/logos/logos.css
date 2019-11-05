@@ -1,4 +1,5 @@
 @import url('./__item/logos__item.css');
+@import url('./__link/__logos__link.css');
 
 .logos {
     display: flex;
@@ -7,5 +8,19 @@
 
     max-width: 1144px;
 
-    margin: 100px auto 180px;
+    margin: 100px auto 175px;
+}
+
+@media screen and (max-width: 768px){
+    .logos {
+        margin: 81px 36px 160px;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 530px){
+    .logos {
+        margin: 61px 0 135px;
+        justify-content: space-between;
+    }
 }

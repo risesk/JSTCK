@@ -6,4 +6,17 @@
 .content {
     display: flex;
     justify-content: space-between;
+    min-height: 568px;
+}
+
+@media screen and (max-width: 768px){
+    .content {
+        min-height: 500px;
+    }
+}
+
+@media screen and (max-width: 530px){
+    .content {
+        min-height: 644px;
+    }
 }

@@ -1,0 +1,13 @@
+@media screen and (max-width: 768px){
+    .logos__link {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 530px){
+    .logos__link {
+        display: inline;
+        /* margin: 0 auto; */
+    }
+}

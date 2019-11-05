@@ -1,11 +1,15 @@
 .info__item {
-    display: inline-block;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 1.15;
-    /* letter-spacing: 0.25px; */
+    margin: 0 0 13px;
+}
+.info__item:last-of-type {
+    margin-bottom: 0px;
+}
+
+.info__item > a:hover {
+    text-decoration-line: underline;
+    color: #37DCD2;
+}
+.info__item > a:active {
+    text-decoration-line: underline;
     color: #FFFFFF;
-    list-style: none;
-    text-decoration: none;
-    margin: 0 0 16px;
 }

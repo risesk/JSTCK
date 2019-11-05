@@ -1,0 +1,10 @@
+.input_size_m {
+    width: 260px;
+    height: 52px;
+}
+
+@media screen and (max-width: 530px){
+    .input_size_m {
+        width: 288px;
+    }
+}

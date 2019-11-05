@@ -1,4 +1,28 @@
-.content__image {
-    margin: 44px 28px 8px 0;
-    opacity: 0.4;
+.content__image:before {
+    z-index:-1;
+    content: "";
+    background-image: url('../../../../public/img/fs_image.svg');
+    background-position: right 28px top 46px;
+    background-size: auto;
+    background-repeat: no-repeat;
+
+    position:absolute;
+    
+    opacity:0.4;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 768px){
+    .content__image:before {
+        background-position: right 0 top 44px;
+        background-size: 380px;
+    }
+}
+
+@media screen and (max-width: 530px){
+    .content__image:before {
+        background-position: center top 305px;
+        background-size: 288px;
+    }
 }

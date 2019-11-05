@@ -9,5 +9,21 @@
 }
 
 .footer__text:first-child {
-    margin-right: 543px;
+    flex-basis: 640px;
+}
+.footer__text:nth-child(2) {
+    flex-basis: 403px;
+}
+
+@media screen and (max-width: 768px){
+    .footer__text:first-child {
+        flex-basis: auto;
+        order:2;
+        margin-top: 24px;
+    }
+    .footer__text:nth-child(2) {
+        flex-basis: auto;
+        order:1;
+        margin-top: 36px;
+    }
 }
