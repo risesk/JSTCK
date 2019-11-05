@@ -3,12 +3,12 @@
     outline: none;
 }
 
-.socials__item:hover {
-    text-decoration-line: underline;
-    background-color: #37DCD2;
+/* path:hover {
+
+    fill: #37DCD2;
 }
 .socials__item:active {
-    text-decoration-line: underline;
+
     background-color: #0069AF;
-}
+} */
 
