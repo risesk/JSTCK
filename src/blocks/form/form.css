@@ -3,7 +3,7 @@
 @import url('./__text/form__text.css');
 @import url('./__link/form__link.css');
 @import url('./__input/form__input.css');
-
+@import url('./__link/_bold/form__link_bold.css');
 
 .form {
     display: flex;

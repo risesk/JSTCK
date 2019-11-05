@@ -3,3 +3,13 @@
     background-color: #00376E;
     border: none;
 }
+
+.button_color_dk-blue:hover {
+    color:  #00376E;
+    background-color: #37DCD2;
+}
+
+.button_color_dk-blue:active {
+    color: #FFFFFF;
+    background-color: #0041A5;
+}

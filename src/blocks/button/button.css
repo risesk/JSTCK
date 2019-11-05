@@ -5,6 +5,7 @@
 @import url('./_color/_transparent/button_color_transparent.css');
 @import url('./_color/_lt-blue/button_color_lt-blue.css');
 @import url('./_color/_dk-blue/button_color_dk-blue.css');
+@import url('./__mobile/button__mobile.css');
 
 
 .button {

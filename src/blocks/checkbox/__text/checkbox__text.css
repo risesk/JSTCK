@@ -6,6 +6,7 @@
     /* margin-left: 8px; */
     padding-left: 28px;
     display: inline-block;
+    max-width: 352px;
 }
 
 .checkbox__text:before,

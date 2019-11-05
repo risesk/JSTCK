@@ -2,6 +2,10 @@
     opacity: 0.4;
 }
 
+.logos__item:hover {
+    opacity: initial;
+}
+
 @media screen and (max-width: 768px){
     .logos__item {
         width: 33%;

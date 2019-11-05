@@ -4,6 +4,16 @@
     margin-top: 40px;
 }
 
+.footer__copyright > a:hover {
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+.footer__copyright > a:active {
+    text-decoration-line: underline;
+    color: #0069AF;
+}
+
+
 @media screen and (max-width: 768px){
     .footer__copyright {
         flex-direction: column;

@@ -2,3 +2,10 @@
     width: 380px;
     height: 48px;
 }
+
+@media screen and (max-width: 450px){
+    .input_size_l {
+        width: 270px;
+        
+    }
+}

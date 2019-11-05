@@ -1,10 +1,30 @@
 @import url('./_size/_m/input_size_m.css');
 @import url('./_size/_l/input_size_l.css');
 @import url('./_type/input_type_email.css');
+@import url('./__error/input__error.css');
+@import url('./__label/input__label.css');
+@import url('./__error-position/input__error-position.css');
 
 .input {
     padding-left: 12px;
     border: 1px solid #0069AF;
     box-sizing: border-box; 
+    position: relative;
 }
+
+.input::placeholder {
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.25px;
+    color: #888888;
+}
+
+.input:invalid:not(:placeholder-shown) {
+	border-color: #df4b41;
+}
+
+.input:invalid:not(:placeholder-shown) + .input__error {
+	display: block;
+}
+
 
